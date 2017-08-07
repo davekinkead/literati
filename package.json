@@ -1,0 +1,19 @@
+{
+  "name": "@davekinkead/literally",
+  "version": "0.0.1",
+  "description": "Literate programing for javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Dave Kinkead",
+  "license": "MIT",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.5.0",
+    "should": "^11.2.1"
+  },
+  "dependencies": {
+    "require-from-string": "^1.2.1"
+  }
+}
