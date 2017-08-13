@@ -12,18 +12,18 @@ Require Literati to parse any indented code blocks in a text file a la markdown 
 
 ## Future Features (one day...)
 
-- [] Parse ticked `\```\` and named \````ruby\` codeblocks.
+- [] Parse ticked and named codeblocks
 
 - [] Access Literati as an object programatically
 
-    const Literati = require('literati')
+      const Literati = require('literati')
 
-- [] Specify what languages to extract from ticked :
+- [] Specify what languages to extract from ticked
 
-    Literati.read('./filename', {only: ['javascript', 'shell'], inline: true})
+      Literati.read('./filename', {only: ['javascript', 'shell'], inline: true})
 
 - [] Run it via CLI
 
-    $ cat readme.md | literati -js | node
+      $ cat readme.md | literati -js | node
 
 Copyright 2017 Dave Kinkead. Released under the MIT License.
