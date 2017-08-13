@@ -1,7 +1,7 @@
 {
-  "name": "@davekinkead/literally",
+  "name": "literati",
   "version": "0.0.1",
-  "description": "Literate programing for javascript",
+  "description": "A literate programming helper in Javascript.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"

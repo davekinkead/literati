@@ -8,10 +8,10 @@ This is markdown.  Use it to describe code blocks.
 
 It works with tabs...
 
-		let tennr = (x) => {
-		  return x * 10
-		}
+	let tennr = (x) => {
+	  return x * 10
+	}
 
-And yet more markdown here...
+Let's expose these functions to the world.
 
     module.exports = () => { return tennr(10) + fivvr(5) }
